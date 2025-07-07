@@ -1,0 +1,17 @@
+# Core libraries
+langchain>=0.1.14
+langchain-core>=0.1.7
+langchain-community>=0.0.24
+langchain-ollama>=0.0.6
+
+# Embeddings
+sentence-transformers>=2.2.2
+
+# Vector store
+faiss-cpu>=1.7.4
+
+# PDF parsing
+pypdf>=3.17.0
+
+# Optional: for better CLI experience
+rich>=13.7.0
