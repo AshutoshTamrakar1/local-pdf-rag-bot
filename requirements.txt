@@ -11,7 +11,32 @@ sentence-transformers>=2.2.2
 faiss-cpu>=1.7.4
 
 # PDF parsing
+pdfplumber>=0.10.0
+PyMuPDF>=1.23.6
 pypdf>=3.17.0
 
-# Optional: for better CLI experience
+# Image processing
+Pillow>=10.0.0
+
+# FastAPI & server
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# Data handling
+pandas>=2.2.2
+
+# Optional: OCR
+pytesseract>=0.3.10
+
+# Other tools (remove if not used)
 rich>=13.7.0
+
+# Remove unused or ambiguous packages:
+# unstructured
+# unstructured_inference
+# pdfminer
+# pi_heif
+# pdf2image
+# fitz (use PyMuPDF instead)
+# frontend
+# tools
