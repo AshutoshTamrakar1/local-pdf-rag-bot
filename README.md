@@ -68,7 +68,3 @@ See `requirements.txt` for details.
 - No PDF/image data is saved to disk (except temporary files for extraction).
 - Images are handled as base64 strings in memory.
 - For best results, use clear, well-structured PDFs.
-
-## License
-
-MIT License (see LICENSE
